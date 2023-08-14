@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sample"
+        android:id="@+id/sample_scope"
+        android:icon="@drawable/ic_sample"/>
+    <item android:title="Schedule"
+        android:id="@+id/schedule"
+        android:icon="@drawable/ic_schedule"/>
+    <item android:title="Status"
+        android:id="@+id/status"
+        android:icon="@drawable/ic_status"/>
+<!--    <item android:title="Admin"-->
+<!--        android:id="@+id/admin"-->
+<!--        android:icon="@drawable/ic_admin"/>-->
+</menu>

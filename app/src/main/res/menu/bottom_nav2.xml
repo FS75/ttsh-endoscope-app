@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Employees"
+        android:id="@+id/admin_employee"
+        android:icon="@drawable/ic_sample"/>
+    <item android:title="Scopes"
+        android:id="@+id/admin_scope"
+        android:icon="@drawable/ic_schedule"/>
+</menu>

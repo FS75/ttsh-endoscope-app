@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".AdminScopesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="vertical"
+            android:layout_weight="0.6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/prefixForScopeAssistant"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeAssistant"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeAssistant"
+                        android:layout_width="250sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/prefixForScopeBrand"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeBrand"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeBrand"
+                        android:layout_width="270sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/prefixForScopeDate"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeDate"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeDate"
+                        android:layout_width="320sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/prefixForScopeModel"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeModel"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeModel"
+                        android:layout_width="270sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/prefixForScopeNurse"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeNurse"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeNurse"
+                        android:layout_width="295sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/prefixForScopeSerial"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeSerial"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeSerial"
+                        android:layout_width="270sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/prefixForScopeShift"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeShift"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeShift"
+                        android:layout_width="320sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/prefixForScopeStatus"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeStatus"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeStatus"
+                        android:layout_width="265sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/prefixForScopeTime"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeTime"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeTime"
+                        android:layout_width="275sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/prefixForScopeType"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/enterScopeType"
+                        android:paddingLeft="20sp"
+                        android:layout_marginTop="20sp">
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/scopeType"
+                        android:layout_width="275sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                    </EditText>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hold onto the buttons for tooltips!"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/addScopeBtn"
+                        android:layout_width="@dimen/btn_width_small"
+                        android:layout_height="@dimen/btn_height"
+                        android:layout_gravity="center"
+                        android:text="@string/addScopeBtn"
+                        android:layout_margin="10dp"
+                        android:tooltipText="All fields are required to be filled up">
+                    </Button>
+
+                    <Button
+                        android:id="@+id/deleteScopeBtn"
+                        android:layout_width="@dimen/btn_width_small"
+                        android:layout_height="@dimen/btn_height"
+                        android:layout_gravity="center"
+                        android:text="@string/deleteScopeBtn"
+                        android:layout_margin="10dp"
+                        android:tooltipText="Only the Scope Serial field is required to be filled up">
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/updateScopeBtn"
+                        android:layout_width="@dimen/btn_width_small"
+                        android:layout_height="@dimen/btn_height"
+                        android:layout_gravity="center"
+                        android:text="@string/updateScope"
+                        android:layout_margin="10dp"
+                        android:tooltipText="All fields except brand, model, type are required to be filled up">
+                    </Button>
+
+                    <Button
+                        android:id="@+id/displayScopesBtn"
+                        android:layout_width="@dimen/btn_width_small"
+                        android:layout_height="@dimen/btn_height"
+                        android:layout_gravity="center"
+                        android:text="@string/displayScopes"
+                        android:layout_margin="10dp"
+                        android:tooltipText="A button to display all scopes from the Firebase Realtime Database">
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scrollView4"
+            android:layout_marginLeft="10dp"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="vertical"
+            android:layout_weight="0.4">
+
+            <TextView
+                android:id="@+id/displayScopeDetails"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=""
+                android:paddingLeft="20sp"
+                android:layout_marginTop="20sp">
+            </TextView>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

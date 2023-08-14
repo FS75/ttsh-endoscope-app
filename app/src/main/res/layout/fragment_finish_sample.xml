@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/finish_sample_fragment"
+    tools:context=".FinishSampleFragment">
+
+    <TextView
+        android:id="@+id/breadCrumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home > Scan Scope > Confirm Details > Finish Sample"
+        android:textColor="#0000FF"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/breadCrumb"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sampling"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/proceedText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Proceed with the sampling process\nOnce finished, end the sampling by selecting\nOne of the methods below\nCurrent Method:"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:id="@+id/nfcImageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/nfcicon"
+        app:layout_constraintTop_toBottomOf="@id/proceedText"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <EditText
+        android:id="@+id/pwEditText"
+        android:inputType="textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/proceedText"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:hint="Enter Password"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/cameraBtn"
+        android:contentDescription="@string/scan_qr"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:background="@color/white"
+        android:scaleType="fitCenter"
+        android:src="@drawable/camera"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/scanText"
+        />
+    <TextView
+        android:id="@+id/scanText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_qr"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+        android:id="@+id/pwBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Password"
+
+        />
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Submit"
+        android:visibility="invisible"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

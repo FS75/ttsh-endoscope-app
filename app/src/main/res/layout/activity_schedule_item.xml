@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textViewBrand"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_item_bg"
+        android:text="Brand"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewSerialNumber"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_item_bg"
+        android:text="Serial Number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewScopeType"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_item_bg"
+        android:text="Scope Type"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewModelNumber"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_item_bg"
+        android:text="Model Number"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewNurseId"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/table_item_bg"-->
+<!--        android:text="Nurse ID"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewAssistant"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/table_item_bg"-->
+<!--        android:text="Assistant ID"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="18sp" />-->
+
+    <TextView
+        android:id="@+id/textViewShift"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_item_bg"
+        android:text="Shift (Day/Night)"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_item_bg"
+        android:text="Date"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>

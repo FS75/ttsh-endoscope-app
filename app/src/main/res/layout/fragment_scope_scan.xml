@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scope_scan_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context = ".ScopeScanningFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home > Scan Scope >"
+        android:textColor="#0000FF"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/bringText"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Bring Device Close To scope"
+        android:gravity="center"/>
+    <ImageButton
+        android:id="@+id/cameraBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/camera"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/scanText"/>
+    <TextView
+        android:id="@+id/scanText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_qr"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:background="@color/white"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/scopenfc"
+        app:layout_constraintTop_toBottomOf="@id/bringText"
+        app:layout_constraintBottom_toTopOf="@id/cameraBtn" />
+    <Button
+        android:id="@+id/manualBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manual Input"/>
+    <Button
+        android:id="@+id/proceedBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Proceed"/>
+    <EditText
+        android:id="@+id/serialEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Serial"
+        app:layout_constraintTop_toBottomOf="@id/bringText"
+        app:layout_constraintBottom_toTopOf="@id/cameraBtn"
+        app:layout_constraintRight_toRightOf="@id/brandEditText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/brandEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Brand"
+        app:layout_constraintTop_toBottomOf="@id/bringText"
+        app:layout_constraintBottom_toTopOf="@id/cameraBtn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/serialEditText"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/typeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Type"
+        app:layout_constraintTop_toBottomOf="@id/serialEditText"
+        app:layout_constraintRight_toRightOf="@id/modelEditText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/modelEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Model"
+        app:layout_constraintTop_toBottomOf="@id/brandEditText"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/typeEditText"
+        android:visibility="invisible"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

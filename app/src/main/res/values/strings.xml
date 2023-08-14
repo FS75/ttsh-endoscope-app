@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">TTSH Scope Application</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="adminBtn">Admin</string>
+    <string name="sampleScopeBtn">Sample Scope [Nurse Only]</string>
+    <string name="viewScheduleBtn">Schedule</string>
+    <string name="viewStatusBtn">Status</string>
+    <string name="home">Home</string>
+    <string name="addScopeBtn">Add Scope</string>
+    <string name="enterScopeAssistant">Enter Scope Assistant: </string>
+    <string name="enterScopeTime">Enter Scope Time: </string>
+    <string name="enterScopeSerial">Enter Scope Serial: </string>
+    <string name="enterScopeBrand">Enter Scope Brand: </string>
+    <string name="enterScopeType">Enter Scope Type: </string>
+    <string name="enterScopeModel">Enter Scope Model: </string>
+    <string name="enterScopeNurse">Enter Nurse ID: </string>
+    <string name="enterScopeShift">Enter Shift: </string>
+    <string name="enterScopeDate">Enter Date: </string>
+    <string name="enterScopeStatus">Enter Scope Status: </string>
+    <string name="displayScopes">Display Scopes</string>
+    <string name="scopes">Scopes</string>
+    <string name="employees">Employees</string>
+    <string name="addEmployeeBtn">Add Employee</string>
+    <string name="displayEmployees">Display Employees</string>
+    <string name="enterEmployeeId">Enter Employee Id: </string>
+    <string name="enterEmployeeName">Enter Employee Name: </string>
+    <string name="enterEmployeeType">Enter Employee Type: </string>
+    <string name="deleteScopeBtn">Delete Scope</string>
+    <string name="deleteEmployeeBtn">Delete Employee</string>
+    <string name="updateScope">Update Scope</string>
+    <string name="updateEmployee">Update Employee</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Status Strings -->
+    <string name="serialNo">Serial No.:</string>
+    <string name="notSampled">Not Sampled </string>
+    <string name="sampled">Sampled </string>
+    <string name="infectionControl">Infection Control </string>
+    <string name="samplingDetails"> Sampling Details</string>
+    <string name="employeeDetails"> Employee Details</string>
+    <string name="scopeDetails"> Scope Details</string>
+
+    <!-- Sample pages -->
+    <string name="login">Login</string>
+    <string name="tap_nfc">Tap your NFC Card</string>
+    <string name="assistant_id">Assistant ID:      </string>
+    <string name="assistant_name">Assistant Name:</string>
+    <string name="scan_qr">Scan QR Code</string>
+
+    <!-- Notifcation messages -->
+    <string name="authentication_failure">Authentication failed.</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="NFC_no_records">NFC has no records!</string>
+    <string name="NFC_not_supported">NFC tag not supported</string>
+
+    <string name="please_fill_all_fields">Please fill up all fields</string>
+    <string name="please_input_employee_id">Please input an employee id</string>
+    <string name="please_input_serial_no">Please input a serial number</string>
+    <string name="database_is_empty">Database is empty</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="wrong_scoped_scan_please_try_again">Wrong Scope scanned, please try again</string>
+
+    <string name="cancel">cancel</string>
+
+    <string-array name="spinner_items">
+        <item>Brand</item>
+        <item>Serial Number</item>
+        <item>Scope Type</item>
+        <item>Model Number</item>
+        <item>Nurse Id</item>
+        <item>Assistant Id</item>
+        <item>Shift (Day/Night) </item>
+        <item>Date</item>
+    </string-array>
+
+</resources>

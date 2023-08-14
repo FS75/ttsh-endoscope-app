@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNav2"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:scrollIndicators="left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav2" />
+
+</RelativeLayout>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/activity_admin"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_gravity="center_vertical"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/scopesBtn"-->
+<!--        android:layout_width="@dimen/btn_width"-->
+<!--        android:layout_height="@dimen/btn_height"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="@string/scopes">-->
+<!--    </Button>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/employeesBtn"-->
+<!--        android:layout_width="@dimen/btn_width"-->
+<!--        android:layout_height="@dimen/btn_height"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="@string/employees">-->
+<!--    </Button>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/testCameraBtn"-->
+<!--        android:layout_width="@dimen/btn_width"-->
+<!--        android:layout_height="@dimen/btn_height"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="Test Camera">-->
+<!--    </Button>-->
+<!--</LinearLayout>-->

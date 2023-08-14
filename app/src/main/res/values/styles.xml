@@ -1,0 +1,7 @@
+<resources>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@color/purple_500</item>
+        <item name="android:textColorPrimary">@color/white</item> <!-- Title and message text color -->
+        <item name="android:colorAccent">@color/white</item> <!-- Button text color -->
+    </style>
+</resources>

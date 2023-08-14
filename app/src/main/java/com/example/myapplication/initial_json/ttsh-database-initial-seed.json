@@ -1,0 +1,103 @@
+{
+	"ttsh-database": {
+		"employees": {
+			"A1534": {
+				"id": "A1534",
+				"name": "Juleus Seah",
+				"type": "Assistant"
+			},
+			"S1234": {
+				"id": "S1234",
+				"name": "Ryan Lim",
+				"type": "Staff"
+			},
+			"S5678": {
+				"id": "S5678",
+				"name": "Tan Chun Boon",
+				"type": "Staff"
+			},
+			"A2814": {
+				"id": "A2814",
+				"name": "Chee Kang Chen",
+				"type": "Assistant"
+			},
+			"S1346": {
+				"id": "S1346",
+				"name": "Liu Jun",
+				"type": "Staff"
+			}
+		},
+		"scopes": {
+			"12345": {
+				"brand": "Toshiba",
+				"serialNo": "12345",
+				"type": "Scope B",
+				"model": "88888",
+				"nurse": "32154",
+				"shift": "Night",
+				"date": "02/11/2022",
+				"status": "1"
+			},
+			"34567": {
+				"brand": "Panasonic",
+				"serialNo": "34567",
+				"type": "Scope E",
+				"model": "77777",
+				"nurse": "654654",
+				"shift": "Day",
+				"date": "02/11/2022",
+				"status": "1"
+			},
+			"00123": {
+				"brand": "Logitech",
+				"serialNo": "00123",
+				"type": "Scope A",
+				"model": "66666",
+				"nurse": "894498",
+				"shift": "Night",
+				"date": "03/11/2022",
+				"status": "1"
+			},
+			"00456": {
+				"brand": "Sony",
+				"serialNo": "00456",
+				"type": "Scope H",
+				"model": "33333",
+				"nurse": "32154",
+				"shift": "Day",
+				"date": "01/11/2022",
+				"status": "2"
+			},
+			"00789": {
+				"brand": "Apple",
+				"serialNo": "00789",
+				"type": "Scope B",
+				"model": "99999",
+				"nurse": "22135",
+				"shift": "Night",
+				"date": "01/11/2022",
+				"status": "2"
+			},
+			"09876": {
+				"brand": "Mitsubishi",
+				"serialNo": "09876",
+				"type": "Scope H",
+				"model": "33333",
+				"nurse": "32154",
+				"shift": "Day",
+				"date": "01/11/2022",
+				"status": "2"
+			},
+			"54321": {
+				"brand": "Sharp",
+				"serialNo": "54321",
+				"type": "Scope B",
+				"model": "99999",
+				"nurse": "22135",
+				"shift": "Night",
+				"date": "02/11/2022",
+				"status": "3"
+			}
+		}
+	}
+}
